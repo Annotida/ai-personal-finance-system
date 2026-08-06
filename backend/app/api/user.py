@@ -1,0 +1,1 @@
+#This file manages user resources, not authentication.

@@ -1,0 +1,1 @@
+#Handles database operations for the User entity.
