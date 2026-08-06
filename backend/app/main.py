@@ -13,9 +13,7 @@ app = FastAPI(
 
 @app.on_event("startup")
 def startup():
-    
-    print("Registered tables:", Base.metadata.tables.keys())
-    Base.metadata.create_all(bind=engine)
+    print("Application started")
 
 
 @app.get("/")
