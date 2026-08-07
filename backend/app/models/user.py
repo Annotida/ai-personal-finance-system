@@ -1,3 +1,4 @@
+#represents the database table for users in the system. It defines the structure of the user table and its columns, including data types, constraints, and default values. The User class inherits from Base, which is the declarative base for SQLAlchemy models. Each attribute of the User class corresponds to a column in the users table, with appropriate data types and constraints specified using SQLAlchemy's mapped_column function.
 from datetime import datetime
 
 from sqlalchemy import Boolean
